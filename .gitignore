@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# Environments
+.venv
+
+# VS Code
+.vscode
+
+# Datasets
+datasets
