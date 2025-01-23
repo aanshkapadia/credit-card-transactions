@@ -3,10 +3,10 @@
 ##  Overview
 In this project, I analyzed financial transaction data between 2010 and 2019 using pandas and matplotlib. 
 
-View [dataset](https://www.kaggle.com/datasets/vineethakkinapalli/citibike-bike-sharingnewyork-cityjan-to-apr-2021)
+View [code](https://github.com/aanshkapadia/credit-card-transactions/blob/main/analysis.ipynb) |  [dataset](https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
 
 ## Data Preparation
-To prepare for analysis, I imported each file into separate dataframes (transactions, users, cards, merchant info, fraud labels), merged them together based on relevant IDs, and then finally removed unnecessary columns. Additionally, I made sure to clean any columns containing values representing dollar amounts by removing non-numeric characters (ex. '$') and then converting their data types from string to either integer or float.
+To prepare for analysis, I imported each file into separate dataframes (transactions, users, cards, merchant info, fraud labels), merged them together based on relevant IDs, and then finally removed any unnecessary columns. Additionally, I made sure to clean columns containing values representing dollar amounts by removing non-numeric characters (ex. '$') and then converting their data types from string to either integer or float.
 
 <img src="images/dataframe.png"><br/><br/>
 
